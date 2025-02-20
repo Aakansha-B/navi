@@ -3,36 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIGN UP</title>
+    <title>Sign Up</title>
 </head>
 <body>
     <h1> SIGN-UP PAGE </h1>
-    </h1>
-    <lable>Name :</lable>
-    <input type="text" placeholder="Name">
-    <br><br>
 
-    <lable>Age :</lable>
-    <input type="number" placeholder="Enter age ">
-    <br><br>
+    <form action="index.html" method="POST">
+        <label>Name:</label>
+        <input type="text" placeholder="Name" required>
+        <br><br>
 
-    <lable>Email:</lable>
-    <input type="email" placeholder="Enter email ">
-    <br><br>
+        <label>Age:</label>
+        <input type="number" placeholder="Enter age" required>
+        <br><br>
 
-    <lable>Username :</lable>
-    <input type="text" placeholder="Enter your username">
-    <br><br>
+        <label>Email:</label>
+        <input type="email" placeholder="Enter email" required>
+        <br><br>
 
-    <lable>Password :</lable>
-    <input type="text" placeholder="Enter your password">
-    <br><br>
+        <label>Username:</label>
+        <input type="text" placeholder="Enter your username" required>
+        <br><br>
 
-    <lable>Confirm Password :</lable>
-    <input type="text" placeholder="Re-enter password">
-    <br><br>
-    <a href="index.html">
-    <input type="submit" >
-    </a>
+        <label>Password:</label>
+        <input type="password" placeholder="Enter your password" required>
+        <br><br>
+
+        <label>Confirm Password:</label>
+        <input type="password" placeholder="Re-enter password" required>
+        <br><br>
+
+        <input type="submit" value="Sign Up">
+    </form>
 </body>
 </html>
